@@ -1,4 +1,4 @@
 interface:
   display_name: "Azure OpenAI Image Gen"
-  short_description: "Generate images through Azure OpenAI"
-  default_prompt: "Use $azure-openai-image-gen-skill to generate an image through an Azure OpenAI deployment."
+  short_description: "Generate and edit images via Azure OpenAI"
+  default_prompt: "Use $azure-openai-image-gen-skill to generate or edit an image through an Azure OpenAI deployment."

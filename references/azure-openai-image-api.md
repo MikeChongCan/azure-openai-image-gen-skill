@@ -1,6 +1,6 @@
 # Azure OpenAI Image API Notes
 
-Last checked: 2026-04-27.
+Last checked: 2026-04-28.
 
 Primary docs:
 
@@ -15,7 +15,7 @@ Microsoft's image generation guide lists GPT-Image-2 as public preview, GPT-Imag
 
 GPT Image series Azure deployments accept text plus image inputs and output base64 images, not image URLs. Save the base64 payload to a file before presenting results.
 
-GPT-Image-2 supports arbitrary resolutions with both edges as multiples of 16 px, long edge up to 3840 px, aspect ratio up to 3:1, and quality values `low`, `medium`, `high`.
+GPT-Image-2 supports arbitrary resolutions with both edges as multiples of 16 px, long edge up to 3840 px, aspect ratio up to 3:1, a total pixel range of 655,360-8,294,400, and quality values `low`, `medium`, `high`.
 
 OpenAI's Image API docs describe two GPT Image endpoints:
 

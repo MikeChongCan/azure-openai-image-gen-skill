@@ -21,7 +21,7 @@ This folder is a Codex skill for Azure OpenAI / Microsoft Foundry image generati
 
 - After edits, run:
   ```bash
-  python3 /Users/wildcat/.codex/skills/.system/skill-creator/scripts/quick_validate.py /Volumes/SandE/temp/202604/azure-openai-image-gen-skill
-  node --check /Volumes/SandE/temp/202604/azure-openai-image-gen-skill/scripts/generate-image.mjs
+  python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py" .
+  node --check scripts/generate-image.mjs
   ```
 - If the helper script is touched, also run it without env vars and confirm it fails with a clear missing-config message.

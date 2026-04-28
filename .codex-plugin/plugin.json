@@ -1,0 +1,42 @@
+{
+  "name": "azure-openai-image-gen-skill",
+  "version": "0.1.0",
+  "description": "Generate, edit, and troubleshoot image generation through Azure OpenAI and Microsoft Foundry deployments.",
+  "author": {
+    "name": "Wildcat",
+    "email": "[TODO: author@example.com]",
+    "url": "[TODO: https://example.com]"
+  },
+  "homepage": "[TODO: https://example.com/azure-openai-image-gen-skill]",
+  "repository": "[TODO: https://github.com/example/azure-openai-image-gen-skill]",
+  "license": "[TODO: MIT]",
+  "keywords": [
+    "azure-openai",
+    "microsoft-foundry",
+    "image-generation",
+    "gpt-image",
+    "deployment"
+  ],
+  "skills": "./",
+  "interface": {
+    "displayName": "Azure OpenAI Image Gen",
+    "shortDescription": "Generate images through Azure OpenAI deployments",
+    "longDescription": "Use Azure OpenAI Image Gen to route image generation and edit requests through Azure OpenAI or Microsoft Foundry deployments, including deployment-based endpoints, base64 image outputs, reference images, and local helper-script workflows.",
+    "developerName": "Wildcat",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "[TODO: https://example.com/azure-openai-image-gen-skill]",
+    "privacyPolicyURL": "[TODO: https://example.com/privacy]",
+    "termsOfServiceURL": "[TODO: https://example.com/terms]",
+    "defaultPrompt": [
+      "Use Azure OpenAI Image Gen to create an image through my Azure deployment.",
+      "Edit these reference images with Azure OpenAI Image Gen.",
+      "Help troubleshoot an Azure image generation API error."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
